@@ -48,7 +48,7 @@ public class RestaurantOrder {
                 continue;
             }
             
-            totalCost += itemPrice * quantity;
+            totalCost + = itemPrice * quantity;
             System.out.println("Added " + quantity + " item(s) to your order.");
         }
 
